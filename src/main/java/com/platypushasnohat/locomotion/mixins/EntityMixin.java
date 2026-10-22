@@ -19,7 +19,7 @@ public class EntityMixin implements StepSmoothing {
     @Unique
     private static final float MAX_OFFSET = 0.5F;
     @Unique
-    private static final float SMOOTHING = 0.33F;
+    private static final float SMOOTHING = 0.4F;
 
     @Unique
     private float prevStepOffset = 0.0F;
