@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.platypushasnohat.locomotion.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "locomotion.refmap.json",
+  "mixins": [
+    "EntityMixin",
+    "LivingEntityMixin"
+  ],
+  "client": [
+    "client.CameraMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
